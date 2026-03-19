@@ -32,7 +32,7 @@ export default function Footer() {
 				<a href="https://dl.rubyapp.co/Ruby2PressKit.zip">Press Kit</a>
 			</p>
 			<p>App Store and the Apple logo are trademarks of Apple Inc.</p>
-			<p>&copy; 2020-2024 Michael Burkhardt</p>
+			<p>&copy; 2020-2026 Michael Burkhardt</p>
 		</footer>
 	);
 }
