@@ -8,12 +8,12 @@ export default function Home() {
 		<main className="py-8 sm:py-12 lg:py-16">
 			<ParallaxAurora />
 
-			<p className="font-black text-4xl lg:text-5xl text-center drop-shadow tracking-tight text-transparent bg-clip-text bg-gradient-to-br from-pink-600 to-pink-800 dark:from-pink-200 dark:to-pink-400">
+			<p className="font-black text-4xl lg:text-5xl text-center drop-shadow tracking-tight text-transparent bg-clip-text bg-gradient-to-br from-violet-600 to-violet-800 dark:from-violet-200 dark:to-violet-400">
 				News that Shines
 			</p>
 
 			<p className="text-center text-lg lg:text-xl max-w-xl text-balance mx-auto py-2 pb-4">
-				Ruby is a beautifully designed news app for Apple platforms,
+				Amethyst is a beautifully designed news app for Apple platforms,
 				built to be simple and easy to use.
 			</p>
 
@@ -21,13 +21,13 @@ export default function Home() {
 				className="flex items-center gap-2 rounded-full px-3 py-2 bg-black text-white dark:bg-white dark:text-black hover:bg-zinc-800 dark:hover:bg-zinc-200 transition ease-in-out group w-fit mx-auto text-center"
 				href="https://apps.apple.com/us/app/ruby-your-news-assistant/id1522815729"
 			>
-				<AppStoreIcon className="group-hover:text-pink-300 dark:group-hover:text-pink-700 transition ease-in-out" />
+				<AppStoreIcon className="group-hover:text-violet-300 dark:group-hover:text-violet-700 transition ease-in-out" />
 				Download on the App Store
 			</a>
 
 			<Image
 				src={Hero}
-				alt="Ruby on various Apple devices"
+				alt="Amethyst on various Apple devices"
 				placeholder="blur"
 				sizes="(max-width: 1152px) 100vw, 1152px"
 				priority
@@ -43,7 +43,7 @@ export default function Home() {
 						key={index}
 						className="rounded-lg backdrop-blur-lg bg-zinc-50/50 dark:bg-zinc-950/50 p-4 hover:scale-[1.01] transition ease-in-out after:absolute after:inset-0 after:border-y-2 after:rounded-lg after:border-t-white/10 after:border-b-black/10 after:-z-10 drop-shadow-sm border border-zinc-300/50 dark:border-zinc-700/50"
 					>
-						<h3 className="font-bold text-xl lg:text-2xl text-pink-700 dark:text-pink-300">
+						<h3 className="font-bold text-xl lg:text-2xl text-violet-700 dark:text-violet-300">
 							{feature.title}
 						</h3>
 						<p>{feature.description}</p>

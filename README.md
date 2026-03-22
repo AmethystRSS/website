@@ -1,8 +1,8 @@
-# [Ruby Website](https://rubyapp.co)
+# [Amethyst Website](https://amethyst.news)
 
-![Screen shot of Ruby Website](https://github.com/user-attachments/assets/29029660-276f-4e6e-acb3-5cee2df8eeb5)
+![Screen shot of Amethyst Website](https://github.com/user-attachments/assets/29029660-276f-4e6e-acb3-5cee2df8eeb5)
 
-Website for Ruby, a news app for Apple platforms. Designed and developed by [Nick Oates](https://nickoates.com).
+Website for Amethyst, a news app for Apple platforms. Designed and developed by [Nick Oates](https://nickoates.com).
 
 Built with:
 

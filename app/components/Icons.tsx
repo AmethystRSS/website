@@ -69,7 +69,7 @@ export function ThreadsIcon() {
 	);
 }
 
-export function RubyIcon() {
+export function AmethystIcon() {
 	return (
 		<svg
 			version="1.2"

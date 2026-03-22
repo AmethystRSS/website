@@ -5,21 +5,21 @@ import Link from "next/link";
 export const metadata: Metadata = {
 	title: "Updates",
 	description:
-		"Stay up to date with the latest Ruby news, updates, and features.",
+		"Stay up to date with the latest Amethyst news, updates, and features.",
 };
 
 export default function Updates() {
 	return (
-		<main className="prose dark:prose-invert mx-auto prose-zinc dark:hover:prose-a:text-pink-300 hover:prose-a:text-pink-700 prose-a:transition prose-a:ease-in-out">
+		<main className="prose dark:prose-invert mx-auto prose-zinc dark:hover:prose-a:text-violet-300 hover:prose-a:text-violet-700 prose-a:transition prose-a:ease-in-out">
 			<h1 className="mb-0 tracking-tight font-bold">Updates</h1>
 
 			<p className="text-zinc-800 dark:text-zinc-200 my-2">
-				Stay up to date with the latest Ruby news and features.{" "}
+				Stay up to date with the latest Amethyst news and features.{" "}
 				<a
-					href="https://x.com/intent/user?screen_name=getRubyApp"
-					className="underline dark:hover:text-pink-300 hover:text-pink-700 transition ease-in-out"
+					href="https://x.com/intent/user?screen_name=AmethystApp"
+					className="underline dark:hover:text-violet-300 hover:text-violet-700 transition ease-in-out"
 				>
-					Follow Ruby on X
+					Follow Amethyst on X
 				</a>{" "}
 				for more frequent updates.
 			</p>

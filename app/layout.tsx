@@ -8,19 +8,19 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: {
-		template: "%s — Ruby",
-		default: "Ruby — News that Shines",
+		template: "%s — Amethyst",
+		default: "Amethyst — News that Shines",
 	},
 	description:
-		"Ruby is a beautifully designed news app for Apple platforms, built to be simple and easy to use.",
+		"Amethyst is a beautifully designed news app for Apple platforms, built to be simple and easy to use.",
 	itunes: {
 		appId: "1522815729",
 	},
 	twitter: {
 		card: "summary_large_image",
-		site: "@getRubyApp",
+		site: "@AmethystApp",
 	},
-	metadataBase: new URL("https://rubyapp.co"),
+	metadataBase: new URL("https://amethyst.news"),
 };
 
 export default function RootLayout({

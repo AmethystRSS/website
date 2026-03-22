@@ -25,7 +25,7 @@ export default function Post({ params }: { params: { slug: string } }) {
 	if (!post) return notFound();
 
 	return (
-		<main className="prose dark:prose-invert mx-auto prose-zinc dark:hover:prose-a:text-pink-300 hover:prose-a:text-pink-700 prose-a:transition prose-a:ease-in-out">
+		<main className="prose dark:prose-invert mx-auto prose-zinc dark:hover:prose-a:text-violet-300 hover:prose-a:text-violet-700 prose-a:transition prose-a:ease-in-out">
 			<time dateTime={post.date.toISOString()}>
 				{post.date.toLocaleDateString("en-US", {
 					dateStyle: "long",

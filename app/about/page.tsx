@@ -14,38 +14,38 @@ export const metadata: Metadata = {
 
 export default function About() {
 	return (
-		<main className="prose dark:prose-invert mx-auto prose-zinc dark:hover:prose-a:text-pink-300 hover:prose-a:text-pink-700 prose-a:transition prose-a:ease-in-out">
-			<h1 className="mb-0 tracking-tight font-bold">About Ruby</h1>
+		<main className="prose dark:prose-invert mx-auto prose-zinc dark:hover:prose-a:text-violet-300 hover:prose-a:text-violet-700 prose-a:transition prose-a:ease-in-out">
+			<h1 className="mb-0 tracking-tight font-bold">About Amethyst</h1>
 
 			<p>
-				Ruby is a simple and familiar app that delivers the news.
+				Amethyst is a simple and familiar app that delivers the news.
 				It&apos;s meant to be easy to understand, and provide a clean
-				user interface to keep up with the world. Ruby allows users to
+				user interface to keep up with the world. Amethyst allows users to
 				sort by individual topics, keep up with trends, search for
 				stories, and bookmark articles to come back to later.
 			</p>
 
 			<p>
-				Ruby development began in July 2020, and launched in September
+				Amethyst development began in July 2020, and launched in September
 				that year. Since then, the app has gained thousands of downloads
 				and has been featured on the App Store in many regions across
 				the globe.
 			</p>
 
 			<p>
-				Since the initial launch in 2020, Ruby expanded to macOS in
+				Since the initial launch in 2020, Amethyst expanded to macOS in
 				2021, launched a fully revamped Apple Watch experience in 2023,
 				and was one of the first 1000 native apps available on Apple
 				Vision Pro in 2024.
 			</p>
 
 			<p>
-				Ruby is available for free on the App Store, and with a purchase
-				of Ruby Premium, you can unlock an ad free experience and the
+				Amethyst is available for free on the App Store, and with a purchase
+				of Amethyst Premium, you can unlock an ad free experience and the
 				complete feature set.
 			</p>
 
-			<p>Development of Ruby is made possible by the following people:</p>
+			<p>Development of Amethyst is made possible by the following people:</p>
 
 			<div className="grid gap-4 grid-cols-1 lg:grid-cols-2 not-prose">
 				<Contributor
@@ -87,7 +87,7 @@ function Contributor(props: {
 				alt={props.name}
 				className="rounded-full size-36 mx-auto mb-4 drop-shadow-sm"
 			/>
-			<h3 className="font-bold text-xl lg:text-2xl text-pink-700 dark:text-pink-300">
+			<h3 className="font-bold text-xl lg:text-2xl text-violet-700 dark:text-violet-300">
 				{props.name}
 			</h3>
 			<p>{props.role}</p>
