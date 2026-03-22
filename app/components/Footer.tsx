@@ -1,4 +1,4 @@
-import { TwitterIcon, GitHubIcon, ThreadsIcon } from "@/components/Icons";
+import { TwitterIcon, GitHubIcon } from "@/components/Icons";
 import Link from "next/link";
 
 export default function Footer() {
@@ -11,10 +11,6 @@ export default function Footer() {
 
 				<a href="https://github.com/AmethystRSS" target="_blank">
 					<GitHubIcon />
-				</a>
-
-				<a href="https://www.threads.net/@amethystapp" target="_blank">
-					<ThreadsIcon />
 				</a>
 			</div>
 

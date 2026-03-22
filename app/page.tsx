@@ -9,12 +9,12 @@ export default function Home() {
 			<ParallaxAurora />
 
 			<p className="font-black text-4xl lg:text-5xl text-center drop-shadow tracking-tight text-transparent bg-clip-text bg-gradient-to-br from-violet-600 to-violet-800 dark:from-violet-200 dark:to-violet-400">
-				News that Shines
+				RSS, without the mess.
 			</p>
 
 			<p className="text-center text-lg lg:text-xl max-w-xl text-balance mx-auto py-2 pb-4">
-				Amethyst is a beautifully designed news app for Apple platforms,
-				built to be simple and easy to use.
+				Amethyst is a clean, native RSS reader for Apple devices.
+				Built by a writer, for writers.
 			</p>
 
 			<a
@@ -64,9 +64,9 @@ const features: Array<{
 			"Hand-crafted design that seemlessly blends into Apple's design language.",
 	},
 	{
-		title: "Expansive Coverage",
+		title: "Wide Support",
 		description:
-			"Support for a wide range of news sources to keep you updated and informed.",
+			"Support for virtually any RSS feed, allowing you to read to your hearts content.",
 	},
 	{
 		title: "Bookmarks",
@@ -74,9 +74,9 @@ const features: Array<{
 			"Effortlessly save your favorite articles for later reading or reference.",
 	},
 	{
-		title: "Real-Time Trends",
+		title: "Discover Feed",
 		description:
-			"Keep up with the latest and most popular topics in media, powered by Twitter's API.",
+			"Easily find and add new RSS sources to your feed.",
 	},
 	{
 		title: "Cross Platform",
@@ -84,8 +84,8 @@ const features: Array<{
 			"Access the same app and features across iOS, macOS, watchOS, and visionOS.",
 	},
 	{
-		title: "Customized Topics",
+		title: "Groups",
 		description:
-			"Filter your news feed to focus on what you care about most, and hide what you don't.",
+			"Quickly sort your favorite feeds into groups, so you can focus on what matters.",
 	},
 ];
