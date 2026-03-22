@@ -4,51 +4,47 @@ export default function PrivacyPolicy() {
 			<h1 className="mb-0 tracking-tight font-bold">Privacy Policy</h1>
 
 			<p>
-				<strong>Last updated on February 20th, 2024.</strong>
+				<strong>Last updated on March 22nd, 2026.</strong>
 			</p>
 
 			<p>
-				We believe in user privacy, and we like to keep you in the loop
-				about how your data may be collected and or utilized in Amethyst.
+				I believe in user privacy, and Amethyst is built with privacy
+				at its core.
 			</p>
 
 			<p>
-				First and foremost, majority of data is actually collected by
-				third parties, and we don&apos;t have access to most of it.
-				Between clicking on articles, saving bookmarks, or anything
-				else, we don&apos;t collect any user data on what you&apos;re
-				specifically doing.
+				Features like bookmark sync and group syncing across devices is
+				handled entirely on iCloud, and that data isn&apos;t accessible
+				to us.
 			</p>
 
 			<p>
-				There is a very limited amount of data we actually collect,
-				which is mostly analytical data. We use TelemetryDeck in the
-				latest version of Amethyst for iOS, as well as RevenueCat. All of
-				the analytical data collected is private and anonymous, and it
-				mostly includes things like device type, OS version, app
-				version, and what features of the app you use.
+				Some analytical data may be collected in Amethyst to help
+				improve the experience, but all such data is collected
+				anonymously - with no identifying information being tied to
+				such analytics.
 			</p>
 
 			<p>
-				Bookmarks sync across your Apple devices, whether that be
-				iPhone, iPad, Mac, or Apple Vision. Regardless of what device
-				you&apos;re using, we do not have your Bookmark data. All of
-				that is handled by Apple&apos;s iCloud service.
+				Amethyst&apos;s in-app browser doesn&apos;t store cookies, so
+				if you&apos;re logging into a website through it, it&apos;ll
+				only last as long as that session is active.
 			</p>
 
 			<p>
-				Since Amethyst requires third parties to collect the news, they may
-				collect some data when requesting the news, including your IP
-				address, timezone, or similar.
+				As part of Amethyst Pro, we offer the ability to log in and
+				have real-time push notifications from our remote server. If
+				you use that feature, the email you share with Sign in with
+				Apple may be tied to some feed data, though we&apos;ll only be
+				able to see which sources you chose to enable notifications
+				for. The others will remain completely private to us.
 			</p>
 
 			<p>
-				In addition, Amethyst will link to external sites, primarily news
-				publishers - and your data may be collected by those third
-				parties. In an app like Amethyst, where the content is primarily
-				provided by third parties, since they&apos;re news articles - it
-				is imperative that you know that data may be collected by those
-				websites.
+				Lastly, since Amethyst is a news app - news providers may
+				receive some limited device and network information from your
+				device when you make a request, such as timezone, IP address,
+				and screen size.
 			</p>
 		</main>
 	);
