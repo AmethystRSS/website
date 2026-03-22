@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Aurora } from "@/components/Aurora";
 
 import Michael from "@/assets/Michael.webp";
-import Aether from "@/assets/Aether.webp";
+import Dylan from "@/assets/Dylan.webp";
 import Nick from "@/assets/Nick.webp";
 
 export const metadata: Metadata = {
@@ -18,31 +18,32 @@ export default function About() {
 			<h1 className="mb-0 tracking-tight font-bold">About Amethyst</h1>
 
 			<p>
-				Amethyst is a simple and familiar app that delivers the news.
-				It&apos;s meant to be easy to understand, and provide a clean
-				user interface to keep up with the world. Amethyst allows users to
-				sort by individual topics, keep up with trends, search for
-				stories, and bookmark articles to come back to later.
+				Amethyst is a clean and easy to use RSS reader for Apple
+				devices - built by a writer, for writers. I always wanted an
+				RSS reader that I felt could help me do my job, and Amethyst
+				is that solution.
 			</p>
 
 			<p>
-				Amethyst development began in July 2020, and launched in September
-				that year. Since then, the app has gained thousands of downloads
-				and has been featured on the App Store in many regions across
-				the globe.
+				Amethyst development kicked off in late 2024 - and slowly made
+				its way to be over the past year and a half or so. It fully
+				embraces Liquid Glass, and is available on iPhone, iPad, Mac,
+				and Apple Vision Pro.
 			</p>
 
 			<p>
-				Since the initial launch in 2020, Amethyst expanded to macOS in
-				2021, launched a fully revamped Apple Watch experience in 2023,
-				and was one of the first 1000 native apps available on Apple
-				Vision Pro in 2024.
+				If you&apos;re someone who wants granular control over your
+				news intake while having a native-looking interface, Amethyst
+				may be the solution for you.
 			</p>
 
 			<p>
-				Amethyst is available for free on the App Store, and with a purchase
-				of Amethyst Premium, you can unlock an ad free experience and the
-				complete feature set.
+				Amethyst is available for $9.99 as a one-time purchase. For
+				real-time push notifications, which does have ongoing server
+				costs, you can subscribe to Amethyst Plus for $1.99/month.
+				If notifications don&apos;t bother you, then you&apos;re free
+				and in the clear after buying the app: no ads, no tracking,
+				and no nonsense.
 			</p>
 
 			<p>Development of Amethyst is made possible by the following people:</p>
@@ -55,10 +56,10 @@ export default function About() {
 					href="https://x.com/mbrkhrdt"
 				/>
 				<Contributor
-					name="Aether"
+					name="Dylan McDonald"
 					role="Icon Designer"
-					src={Aether}
-					href="https://x.com/AetherAurelia"
+					src={Dylan}
+					href="https://x.com/DylanMcD8"
 				/>
 				<Contributor
 					name="Nick Oates"

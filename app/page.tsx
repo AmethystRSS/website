@@ -66,7 +66,7 @@ const features: Array<{
 	{
 		title: "Wide Support",
 		description:
-			"Support for virtually any RSS feed, allowing you to read to your hearts content.",
+			"Support for virtually any RSS feed, allowing you to read your heart out.",
 	},
 	{
 		title: "Bookmarks",

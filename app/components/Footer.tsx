@@ -21,7 +21,7 @@ export default function Footer() {
 				Website built by <a href="https://nickoates.com">Nick Oates</a>.
 				<br />
 				Amethyst icon designed by{" "}
-				<a href="https://x.com/AetherAurelia">Aether</a>.
+				<a href="https://x.com/DylanMcD8">Dylan McDonald</a>.
 			</p>
 			<p>
 				<Link href="/privacy">Privacy Policy</Link> &bull;{" "}
