@@ -59,9 +59,9 @@ const features: Array<{
 	description: string;
 }> = [
 	{
-		title: "Sleek Interface",
+		title: "Intuitive Mac App",
 		description:
-			"Hand-crafted design that seemlessly blends into Apple's design language.",
+			"Optimized to fetch articles in the background and update in real-time.",
 	},
 	{
 		title: "Wide Support",
