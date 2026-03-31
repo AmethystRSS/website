@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
 	title: {
 		template: "%s — Amethyst",
-		default: "Amethyst — News that Shines",
+		default: "Amethyst — RSS without the mess",
 	},
 	description:
 		"Amethyst is a beautifully designed news app for Apple platforms, built to be simple and easy to use.",

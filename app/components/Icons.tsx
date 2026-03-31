@@ -71,14 +71,12 @@ export function ThreadsIcon() {
 
 export function AmethystIcon() {
 	return (
-		<svg
-			xmlns="http://www.w3.org/2000/svg"
-			viewBox="0 0 669 776"
-			width="24"
-			height="24"
-			fill="currentColor"
-		>
-			<path fillRule="evenodd" d="M 563 652.85 L 668 402.84 L 523 280.69 L 520 191.65 L 338 1 L 151 182.51 L 150 288.36 L 1 410.83 L 120 665.41 L 338 775 Z" />
-		</svg>
+		<img
+			src="/icon-64.png"
+			alt="Amethyst"
+			width={24}
+			height={24}
+			style={{ borderRadius: 5 }}
+		/>
 	);
 }
