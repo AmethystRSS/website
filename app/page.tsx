@@ -1,5 +1,6 @@
 import Hero from "@/assets/Hero.webp";
 import { AppStoreIcon } from "@/components/Icons";
+import NewsletterSignup from "@/components/NewsletterSignup";
 import Image from "next/image";
 import { ParallaxAurora } from "@/components/Aurora";
 
@@ -50,6 +51,8 @@ export default function Home() {
 					</div>
 				))}
 			</div>
+
+			<NewsletterSignup />
 		</main>
 	);
 }
