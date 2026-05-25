@@ -38,12 +38,10 @@ export default function About() {
 			</p>
 
 			<p>
-				Amethyst is available for $9.99 as a one-time purchase. For
-				real-time push notifications, which does have ongoing server
-				costs, you can subscribe to Amethyst Plus for $1.99/month.
-				If notifications don&apos;t bother you, then you&apos;re free
-				and in the clear after buying the app: no ads, no tracking,
-				and no nonsense.
+				Amethyst is available for free on the App Store, fully featured,
+				for a limited time. Eventually, to use real-time push notifications, 
+				which does have ongoing server costs, you will be able to
+				subscribe to an Amethyst Plus subscription at a low cost.
 			</p>
 
 			<p>Development of Amethyst is made possible by the following people:</p>
