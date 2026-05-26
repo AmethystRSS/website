@@ -20,7 +20,7 @@ export default function Home() {
 
 			<a
 				className="flex items-center gap-2 rounded-full px-3 py-2 bg-black text-white dark:bg-white dark:text-black hover:bg-zinc-800 dark:hover:bg-zinc-200 transition ease-in-out group w-fit mx-auto text-center"
-				href="https://apps.apple.com/us/app/ruby-your-news-assistant/id1522815729"
+				href="https://apps.apple.com/us/app/amethyst-rss-reader/id6758023629"
 			>
 				<AppStoreIcon className="group-hover:text-violet-300 dark:group-hover:text-violet-700 transition ease-in-out" />
 				Download on the App Store
