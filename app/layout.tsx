@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 	description:
 		"Amethyst is a beautifully designed news app for Apple platforms, built to be simple and easy to use.",
 	itunes: {
-		appId: "1522815729",
+		appId: "6758023629",
 	},
 	twitter: {
 		card: "summary_large_image",
