@@ -62,24 +62,9 @@ const features: Array<{
 	description: string;
 }> = [
 	{
-		title: "Intuitive Mac App",
-		description:
-			"Optimized to fetch articles in the background and update in real-time.",
-	},
-	{
 		title: "Wide Support",
 		description:
 			"Support for virtually any RSS feed, allowing you to read your heart out.",
-	},
-	{
-		title: "Bookmarks",
-		description:
-			"Effortlessly save your favorite articles for later reading or reference.",
-	},
-	{
-		title: "Discover Feed",
-		description:
-			"Easily find and add new RSS sources to your feed.",
 	},
 	{
 		title: "Cross Platform",
@@ -90,5 +75,35 @@ const features: Array<{
 		title: "Groups",
 		description:
 			"Quickly sort your favorite feeds into groups, so you can focus on what matters.",
+	},
+	{
+		title: "Widgets",
+		description:
+			"Keep up with your latest stories right from your Home and Lock Screen.",
+	},
+	{
+		title: "Notifications",
+		description:
+			"Get a real-time push the moment your favorite sources post.",
+	},
+	{
+		title: "Follow Writers",
+		description:
+			"Track your favorite authors and read everything they write without the noise.",
+	},
+	{
+		title: "Distraction-Free Reader",
+		description:
+			"Focus on the stories rather than page clutter with our built-in reader.",
+	},
+	{
+		title: "Bookmarks",
+		description:
+			"Effortlessly save your favorite articles for later reading or reference.",
+	},
+	{
+		title: "Discover Feed",
+		description:
+			"Easily find and add new RSS sources to your feed.",
 	},
 ];
